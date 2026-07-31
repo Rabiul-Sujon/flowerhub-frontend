@@ -1,20 +1,14 @@
-import { useAuth } from '../context/AuthContext.jsx';
-import { useFetch } from '../hooks/useFetch.jsx';
+import { useAuth } from '../context/AuthContext';
+import { useFetch } from '../hooks/useFetch';
 
 export default function AdminDashboard() {
   const { user } = useAuth();
-  const isAdmin = user?.role === 'ADMIN';
-
-  const { data: disputes, loading } = useFetch(isAdmin ? '/admin/disputes' : null, {
-    skip: !isAdmin,
+  const { data: disputes } = useFetch(user?.role === 'ADMIN' ? '/admin/disputes' : null, {
+    skip: user?.role !== 'ADMIN',
   });
 
-  if (!isAdmin) {
+  if (!user || user.role !== 'ADMIN') {
     return <p className="max-w-6xl mx-auto px-5 py-16 text-ink/50">Admin access only.</p>;
-  }
-
-  if (loading) {
-    return <p className="max-w-6xl mx-auto px-5 py-10 text-ink/50">Loading disputes...</p>;
   }
 
   return (
@@ -23,7 +17,7 @@ export default function AdminDashboard() {
       <div className="space-y-3">
         {disputes?.map((d) => (
           <div key={d._id} className="border border-ink/10 rounded p-4 bg-white/50">
-            <p className="text-sm">Dispute — Order #{d._id?.slice(-6)}</p>
+            <p className="text-sm">Dispute — Order #{d._id.slice(-6)}</p>
             <p className="text-xs text-ink/50 mt-1">{d.dispute?.reason}</p>
           </div>
         ))}
