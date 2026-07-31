@@ -1,0 +1,50 @@
+{
+  "nav": {
+    "catalog": "Catalog",
+    "howItWorks": "How it works",
+    "login": "Login",
+    "cart": "Cart",
+    "account": "Account"
+  },
+  "home": {
+    "heroTitle": "Straight from the field, held safe until it arrives",
+    "heroSubtitle": "From Godkhali's flower farmers to wholesale buyers — funds stay locked in escrow until the flowers actually arrive.",
+    "sellCta": "Sell your harvest",
+    "buyCta": "Start buying",
+    "todayRates": "Today's spot rates",
+    "featured": "Featured harvests",
+    "whyTitle": "Why Flowerhub",
+    "whyEscrow": "Escrow protected",
+    "whyVerified": "Verified farmers",
+    "whyPayment": "bKash / Nagad"
+  },
+  "product": {
+    "gradeA": "Grade A",
+    "gradeB": "Grade B",
+    "available": "in stock",
+    "perUnit": "per piece"
+  },
+  "farmer": {
+    "escrowBalance": "Escrow balance",
+    "activeOrders": "Active orders",
+    "quickPost": "1-tap harvest post",
+    "cashOut": "Cash out to bKash/Nagad",
+    "verifiedFarmer": "Verified farmer"
+  },
+  "buyer": {
+    "reliablePayer": "Reliable payer",
+    "bulkCalculator": "Bulk pricing calculator",
+    "escrowHeld": "Held in escrow",
+    "inspectionTime": "Inspection time left",
+    "accept": "Accept delivery",
+    "dispute": "Raise dispute"
+  },
+  "order": {
+    "pending": "Pending",
+    "confirmed": "Confirmed",
+    "dispatched": "Dispatched",
+    "delivered": "Delivered",
+    "completed": "Completed",
+    "disputed": "Disputed"
+  }
+}

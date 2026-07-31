@@ -1,0 +1,50 @@
+{
+  "nav": {
+    "catalog": "ক্যাটালগ",
+    "howItWorks": "কিভাবে কাজ করে",
+    "login": "লগইন",
+    "cart": "কার্ট",
+    "account": "অ্যাকাউন্ট"
+  },
+  "home": {
+    "heroTitle": "মাঠ থেকে সরাসরি, নিরাপদ লেনদেনে",
+    "heroSubtitle": "গদখালীর ফুলচাষি থেকে পাইকার পর্যন্ত — টাকা থাকে নিরাপদে জমা, ফুল না পৌঁছানো পর্যন্ত।",
+    "sellCta": "আপনার ফসল বিক্রি করুন",
+    "buyCta": "কেনা শুরু করুন",
+    "todayRates": "আজকের বাজার দর",
+    "featured": "নির্বাচিত ফসল",
+    "whyTitle": "কেন ফ্লাওয়ারহাব",
+    "whyEscrow": "নিরাপদ এসক্রো",
+    "whyVerified": "যাচাইকৃত কৃষক",
+    "whyPayment": "বিকাশ / নগদ"
+  },
+  "product": {
+    "gradeA": "গ্রেড এ",
+    "gradeB": "গ্রেড বি",
+    "available": "স্টক আছে",
+    "perUnit": "প্রতি পিস"
+  },
+  "farmer": {
+    "escrowBalance": "এসক্রো ব্যালেন্স",
+    "activeOrders": "চলমান অর্ডার",
+    "quickPost": "১-ট্যাপে ফসল পোস্ট করুন",
+    "cashOut": "বিকাশ/নগদে টাকা তুলুন",
+    "verifiedFarmer": "যাচাইকৃত কৃষক"
+  },
+  "buyer": {
+    "reliablePayer": "নির্ভরযোগ্য ক্রেতা",
+    "bulkCalculator": "পাইকারি মূল্য ক্যালকুলেটর",
+    "escrowHeld": "এসক্রোতে জমা আছে",
+    "inspectionTime": "পরিদর্শনের সময় বাকি",
+    "accept": "গ্রহণ করুন",
+    "dispute": "অভিযোগ করুন"
+  },
+  "order": {
+    "pending": "অপেক্ষমাণ",
+    "confirmed": "নিশ্চিত হয়েছে",
+    "dispatched": "পাঠানো হয়েছে",
+    "delivered": "পৌঁছেছে",
+    "completed": "সম্পন্ন",
+    "disputed": "বিরোধপূর্ণ"
+  }
+}
